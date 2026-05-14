@@ -14,9 +14,9 @@ export default function Contact() {
       <h2 className="text-2xl sm:text-3xl font-bold mb-8 text-center w-full">
         Contacto
       </h2>
-      <div className="w-full max-w-lg bg-white rounded-xl shadow-md p-6 sm:p-10 border border-slate-100 flex flex-col items-center text-center">
+      <div className="w-full max-w-lg bg-white dark:bg-slate-800/50 rounded-xl shadow-md p-6 sm:p-10 border border-slate-100 dark:border-slate-700/50 flex flex-col items-center text-center">
         <Mail className="w-12 h-12 text-blue-600 mb-4" />
-        <p className="text-slate-600 mb-6 text-sm sm:text-base">
+        <p className="text-slate-600 dark:text-slate-300 mb-6 text-sm sm:text-base">
           ¿Tienes algún proyecto en mente o simplemente quieres saludar? ¡Me encantaría escucharte!
         </p>
         <a

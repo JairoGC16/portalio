@@ -103,18 +103,18 @@ export default function Experience() {
               scale: 1.02,
               boxShadow: "0 8px 32px rgba(0,0,0,0.10)",
             }}
-            className="bg-white rounded-xl shadow-md border border-slate-100 p-6 transition-all"
+            className="bg-white dark:bg-slate-800/50 rounded-xl shadow-md border border-slate-100 dark:border-slate-700/50 p-6 transition-all"
           >
             <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2 gap-2">
               <div>
                 <h3 className="text-lg font-semibold">{exp.empresa}</h3>
-                <span className="block text-slate-500 text-sm">
+                <span className="block text-slate-500 dark:text-slate-400 text-sm">
                   {exp.puesto}
                 </span>
               </div>
-              <span className="text-slate-400 text-sm">{exp.fecha}</span>
+              <span className="text-slate-400 dark:text-slate-500 text-sm">{exp.fecha}</span>
             </div>
-            <ul className="list-disc list-inside text-slate-700 text-sm sm:text-base ml-4 mt-2">
+            <ul className="list-disc list-inside text-slate-700 dark:text-slate-300 text-sm sm:text-base ml-4 mt-2">
               {exp.actividades.map((act, i) => (
                 <li key={i}>{act}</li>
               ))}

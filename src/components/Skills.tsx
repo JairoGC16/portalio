@@ -69,7 +69,7 @@ function SkillIcon({
       >
         {icon}
       </div>
-      <span className="text-sm pt-2 text-slate-800 text-center">{name}</span>
+      <span className="text-sm pt-2 text-slate-800 dark:text-slate-200 text-center">{name}</span>
     </div>
   );
 }
@@ -83,7 +83,7 @@ const Skills = () => (
       {Object.entries(skills).map(([category, list]) => (
         <div
           key={category}
-          className="bg-white rounded-2xl shadow-md border border-slate-100 p-6 flex flex-col items-center"
+          className="bg-white dark:bg-slate-800/50 rounded-2xl shadow-md border border-slate-100 dark:border-slate-700/50 p-6 flex flex-col items-center"
         >
           <h3 className="font-semibold text-lg mb-4 capitalize">{category}</h3>
           <div className="flex flex-wrap gap-5 justify-center">

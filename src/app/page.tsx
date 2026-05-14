@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="font-sans bg-slate-50 min-h-screen flex flex-col items-center select-none justify-center px-2 sm:px-4 md:px-8 lg:px-24 xl:px-40 pt-16">
-        <div className="w-full max-w-6xl flex flex-col gap-8 md:gap-12 text-slate-900">
+      <main className="font-sans bg-slate-50 dark:bg-slate-900 min-h-screen flex flex-col items-center select-none justify-center px-2 sm:px-4 md:px-8 lg:px-24 xl:px-40 pt-16 transition-colors">
+        <div className="w-full max-w-6xl flex flex-col gap-8 md:gap-12 text-slate-900 dark:text-slate-100 transition-colors">
           <Hero />
           <About />
           <Experience />

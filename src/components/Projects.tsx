@@ -60,7 +60,7 @@ export default function Projects() {
               scale: 1.03,
               boxShadow: "0 8px 32px rgba(0,0,0,0.12)",
             }}
-            className="bg-white rounded-xl shadow-md overflow-hidden border border-slate-100 transition-all flex flex-col h-full"
+            className="bg-white dark:bg-slate-800/50 rounded-xl shadow-md overflow-hidden border border-slate-100 dark:border-slate-700/50 transition-all flex flex-col h-full"
           >
             <div className="relative w-full h-40 sm:h-48">
               <Image
@@ -76,14 +76,14 @@ export default function Projects() {
               <h3 className="text-base sm:text-lg font-semibold mb-2">
                 {project.title}
               </h3>
-              <p className="text-slate-600 mb-2 text-sm sm:text-base">
+              <p className="text-slate-600 dark:text-slate-300 mb-2 text-sm sm:text-base">
                 {project.description}
               </p>
               <div className="flex flex-wrap gap-2 mb-2">
                 {project.tech.map((t) => (
                   <span
                     key={t}
-                    className="text-xs bg-slate-100 px-2 py-1 rounded-full text-slate-700"
+                    className="text-xs bg-slate-100 dark:bg-slate-700 px-2 py-1 rounded-full text-slate-700 dark:text-slate-300"
                   >
                     {t}
                   </span>

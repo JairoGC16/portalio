@@ -37,7 +37,7 @@ const socialLinks = [
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-slate-900 text-white py-8 px-4 mt-12">
+    <footer className="w-full bg-slate-900 dark:bg-slate-950 text-white py-8 px-4 mt-12 transition-colors">
       <div className="max-w-6xl mx-auto flex flex-col items-center gap-4">
         {/* Íconos sociales */}
         <div className="flex flex-wrap justify-center gap-6 sm:gap-8">

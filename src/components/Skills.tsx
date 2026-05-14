@@ -1,10 +1,11 @@
 import React from "react";
-import { DiJava } from "react-icons/di";
+import { DiJava, DiMsqlServer } from "react-icons/di";
 import {
   SiFigma,
   SiGithub,
   SiJavascript,
   SiJira,
+  SiLaravel,
   SiMongodb,
   SiMysql,
   SiNextdotjs,
@@ -20,8 +21,9 @@ import {
 
 const skills = {
   frontend: [
-    { name: "React", icon: <SiReact />, color: "#61DAFB" },
     { name: "Next.js", icon: <SiNextdotjs />, color: "#000000" },
+    { name: "React", icon: <SiReact />, color: "#61DAFB" },
+    { name: "Laravel", icon: <SiLaravel />, color: "#FF2D20" },
     { name: "TypeScript", icon: <SiTypescript />, color: "#3178C6" },
     { name: "Tailwind", icon: <SiTailwindcss />, color: "#06B6D4" },
     { name: "JavaScript", icon: <SiJavascript />, color: "#F7DF1E" },
@@ -35,6 +37,7 @@ const skills = {
   ],
   db: [
     { name: "SQL", icon: <SiMysql />, color: "#4479A1" },
+    { name: "SQL Server", icon: <DiMsqlServer />, color: "#0C344B" },
     {
       name: "PostgreSQL",
       icon: <SiPostgresql />,

@@ -15,8 +15,8 @@ export default function Home() {
         <div className="w-full max-w-6xl flex flex-col gap-8 md:gap-12 text-slate-900">
           <Hero />
           <About />
-          <Projects />
           <Experience />
+          <Projects />
           <Skills />
           <Contact />
         </div>

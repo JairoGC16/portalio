@@ -31,8 +31,9 @@ export default function About() {
           </p>
           <ul className="list-disc list-inside text-slate-700 text-sm sm:text-base flex flex-col gap-1 sm:gap-2">
             <li>
-              Experiencia: React, Next.js, Node.js, TypeScript, Python, Java,
-              PHP, SQL, Prisma, Figma, Jira
+              Experiencia: React, Next.js, Laravel, Node.js, Nest.js, 
+              TypeScript, Python, Java,
+              PHP, SQL, SQL Server, PHP, Prisma, Figma, Jira
             </li>
             <li>Habilidades: UI/UX, Tailwind CSS, SEO, Animaciones</li>
             <li>Idiomas: Español (nativo), Inglés (~B2)</li>

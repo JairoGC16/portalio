@@ -8,25 +8,38 @@ export type ExperienceItem = {
 };
 
 const experiences: ExperienceItem[] = [
+
   {
-    empresa: "Milktech L.L.C.",
-    puesto: "Desarrollador Frontend",
-    fecha: "Abril 2025 - Presente",
+    empresa:
+      "Fiscalía General del Estado de Michoacán",
+    puesto: "Desarrollador Full Stack",
+    fecha: "Noviembre 2025 - Presente",
     actividades: [
-      "Desarrollo de interfaces web responsivas con React y Next.js.",
-      "Implementación de componentes reutilizables y optimizados con Tailwind CSS.",
-      "Desarrollo de aplicaciones web cumpliendo con estándares UI/UX.",
+      "Desarrollo de aplicaciones web full stack con lineamientos de seguridad gubernamental.",
+      "Mantenimiento de sistemas web orientados a la gestión de procesos internos de la Fiscalía.",
+      "Aplicación de buenas prácticas y estándares de desarrollo de software.",
+      "Colaboración con equipos multidisciplinarios para la entrega de productos de software.",
     ],
   },
   {
     empresa:
       "Instituto de Educación Media Superior y Superior del Estado de Michoacán",
     puesto: "Supervisor",
-    fecha: "Febrero 2025 - Presente",
+    fecha: "Febrero 2025 - Octubre 2025",
     actividades: [
-      "Revisión y prevención en procesos informáticos.",
-      "Implementación de mejoras en la infraestructura tecnológica.",
-      "Supervisión y gestión de procesos internos en el sector educativo.",
+      "Soporte técnico, resolviendo porblemas de hardware, software y redes.",
+      "Diseño y desarrollo de reportes graficos y materiales visuales para la toma de decisiones.",
+      "Asesoría y orientación técnica al personal.",
+    ],
+  },
+  {
+    empresa: "Milktech L.L.C.",
+    puesto: "Desarrollador Frontend",
+    fecha: "Abril 2025 - Julio 2025",
+    actividades: [
+      "Desarrollo de interfaces web responsivas con React y Next.js.",
+      "Implementación de componentes reutilizables y optimizados con Tailwind CSS.",
+      "Desarrollo de aplicaciones web cumpliendo con estándares UI/UX.",
     ],
   },
   {
@@ -80,7 +93,7 @@ export default function Experience() {
       className="py-10 sm:py-16 px-2 sm:px-6"
     >
       <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-center md:text-left">
-    Experiencia Laboral
+        Experiencia Laboral
       </h2>
       <div className="flex flex-col gap-8">
         {experiences.map((exp, idx) => (

@@ -1,18 +1,18 @@
-import { Github, Linkedin, Mail } from "lucide-react";
-import { FaFileDownload, FaWhatsapp } from "react-icons/fa";
+import { Mail } from "lucide-react";
+import { FaFileDownload, FaWhatsapp, FaGithub, FaLinkedin } from "react-icons/fa";
 import React from "react";
 
 const socialLinks = [
   {
     name: "LinkedIn",
     url: "https://www.linkedin.com/in/jairo-gonzalez-160402mx/",
-    icon: <Linkedin className="w-6 h-6" />,
+    icon: <FaLinkedin className="w-6 h-6" />,
     className: "hover:text-[#0e76a8] focus:text-[#0e76a8]",
   },
   {
     name: "GitHub",
     url: "https://github.com/JairoGC16",
-    icon: <Github className="w-6 h-6" />,
+    icon: <FaGithub className="w-6 h-6" />,
     className: "hover:text-[#ffffff] focus:text-[#ffffff]"
   },
   {
@@ -29,7 +29,7 @@ const socialLinks = [
   },
   {
     name: "CV",
-    url: "https://drive.google.com/uc?export=download&id=12BQRYmrREocCnh2IqCWlBtdD2E6vIW_H",
+    url: "https://drive.google.com/file/d/1DVjBSdlfawS2bvUcLFz4Nf273B1tMEp-/view?usp=sharing",
     icon: <FaFileDownload className="w-6 h-6" />,
     className: "hover:text-blue-500 focus:text-blue-500"
   }
